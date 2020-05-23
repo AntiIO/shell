@@ -1,18 +1,6 @@
-*Swap一键添加脚本V1.1
-*  By Moecola.com
-
-当前SWAP：2047 MB
-
-1、设置SWAP大小
-2、SWAP参数优化
-3、退出
-请输入：1
-请输入设置Swap大小(单位Mb)
-1024
 #!/bin/bash
 echo
-echo "*Swap一键添加脚本V1.1"
-echo "*  By Moecola.com"
+echo "*一键添加脚本Swap"
 echo
 function main(){
 totalswap=`free -m| grep "Swap:"| awk '{print $2}'`
